@@ -200,6 +200,10 @@ HTTP_LOADER_PROXY_USERNAME = {{ HTTP_LOADER_PROXY_USERNAME | default(None) }}
 ## Defaults to: None
 HTTP_LOADER_PROXY_PASSWORD = {{ HTTP_LOADER_PROXY_PASSWORD | default(None) }}
 
+## If the CurlAsyncHTTPClient should be used
+## Defaults to: False
+HTTP_LOADER_CURL_ASYNC_HTTP_CLIENT = {{ HTTP_LOADER_CURL_ASYNC_HTTP_CLIENT | default(False) }}
+
 ################################################################################
 
 
